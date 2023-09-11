@@ -149,10 +149,6 @@ html {
 	margin: auto 20px;
 }
 
-.table__overflow {
-	overflow-x: auto;
-}
-
 .nav__list {
 	list-style: none;
 	display: flex;

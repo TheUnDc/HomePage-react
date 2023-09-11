@@ -31,7 +31,7 @@ function App() {
           <img id="portrait" className="section__image content__importantItem" width="240"
             src={IMG1} alt="to ja" />
 
-            <p className="section__boxModel section__boxModel--centering">Tomek Pietruczuk</p>
+          <p className="section__boxModel section__boxModel--centering">Tomek Pietruczuk</p>
         </section>
 
         <section id="o-mnie">
@@ -140,9 +140,9 @@ function App() {
         </section>
         <section id="muzyka">
           <h3 className="section__header section__boxModel"> 🎵Troszkę o muzyce</h3>
-          <p className="section__boxModel" > 
+          <p className="section__boxModel" >
             Granie na perkusji to moja pasja. Pozwala zapomnieć o obowiązkach i odciąć
-            na dobrą chwilę. Uwielbiamtworzyć rytmiczne podkłady do różnych gatunków muzycznych, od rocka po metal. 
+            na dobrą chwilę. Uwielbiamtworzyć rytmiczne podkłady do różnych gatunków muzycznych, od rocka po metal.
             Chodź jeszcze nie
             umiem brać bardzo szybko to moimi inspiracjami są
 
@@ -218,53 +218,53 @@ function App() {
             dynamicznymi partiami i perfekcyjnym wykonaniem. Darkside gra na perkusji w zespole Mgła od 2007
             roku. Jest uważany za jednego z najlepszych perkusistów na polskiej
             scenie metalowej ze względu na innowacyjne pisanie partii.
-            </ p >
-            <p className="table__overflow">
-              <table className="table">
-                <caption className="table__caption">
-                  Ulubieni bębniarze plus przykłady (otwiera linki).
-                </caption>
-                <tr>
-                  <th className="table__cell table__cell--header " scope="col"> Muzyk</th>
-                  <th className="table__cell table__cell--header " scope="col"> Znany zespół</th>
-                  <th className="table__cell table__cell--header " scope="col"> Przykładowy utwór</th>
-                </tr>
-                <tr>
-                  <th className="table__cell table__cell--header " scope="row">Jan Axel "Hellhammer" Blomberg</th>
-                  <td className="table__cell" rowspan="2">"Dimmu Borgir"</td>
-                  <td className="table__cell">
-                    <a className="content__link" target="_top"
-                      href="https://www.youtube.com/watch?v=tFIW5b2lwpg">"Mayhem" -
-                      Crystallized Pain in
-                      Deconstruction
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <th className="table__cell table__cell--header " scope="row"> Nicholas Barker</th>
-                  <td className="table__cell">
-                    <a className="content__link" target="_top"
-                      href="https://www.youtube.com/watch?v=deYZEKb_nfA">"Dimmu
-                      Borgir" -
-                      Blessing Upon The
-                      Throne
-                      Of Tyranny
-                    </a>
-                  </td>
+          </ p >
 
-                </tr>
-                <tr>
-                  <th className="table__cell table__cell--header " scope="row"> Maciej "Darkside" Kowalski</th>
-                  <td className="table__cell">"Mgła"</td>
-                  <td className="table__cell">
-                    <a className="content__link" target="_top" href="https://www.youtube.com/watch?v=qW8SAdPkFgk">
-                      "Mgła" -Age of excuse VI
-                    </a>
-                  </td>
+          <table className="table">
+            <caption className="table__caption">
+              Ulubieni bębniarze plus przykłady (otwiera linki).
+            </caption>
+            <tr>
+              <th className="table__cell table__cell--header " scope="col"> Muzyk</th>
+              <th className="table__cell table__cell--header " scope="col"> Znany zespół</th>
+              <th className="table__cell table__cell--header " scope="col"> Przykładowy utwór</th>
+            </tr>
+            <tr>
+              <th className="table__cell table__cell--header " scope="row">Jan Axel "Hellhammer" Blomberg</th>
+              <td className="table__cell" rowspan="2">"Dimmu Borgir"</td>
+              <td className="table__cell">
+                <a className="content__link" target="_top"
+                  href="https://www.youtube.com/watch?v=tFIW5b2lwpg">"Mayhem" -
+                  Crystallized Pain in
+                  Deconstruction
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th className="table__cell table__cell--header " scope="row"> Nicholas Barker</th>
+              <td className="table__cell">
+                <a className="content__link" target="_top"
+                  href="https://www.youtube.com/watch?v=deYZEKb_nfA">"Dimmu
+                  Borgir" -
+                  Blessing Upon The
+                  Throne
+                  Of Tyranny
+                </a>
+              </td>
 
-                </tr>
-              </table>
-            </p>
+            </tr>
+            <tr>
+              <th className="table__cell table__cell--header " scope="row"> Maciej "Darkside" Kowalski</th>
+              <td className="table__cell">"Mgła"</td>
+              <td className="table__cell">
+                <a className="content__link" target="_top" href="https://www.youtube.com/watch?v=qW8SAdPkFgk">
+                  "Mgła" -Age of excuse VI
+                </a>
+              </td>
+
+            </tr>
+          </table>
+
         </ section >
       </ article>
       <aside>
