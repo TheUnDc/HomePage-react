@@ -140,7 +140,7 @@ function App() {
         </section>
         <section id="muzyka">
           <h3 className="section__header section__boxModel"> 🎵Troszkę o muzyce</h3>
-          <p className="section__boxModel" /> 
+          <p className="section__boxModel" > 
             Granie na perkusji to moja pasja. Pozwala zapomnieć o obowiązkach i odciąć
             na dobrą chwilę. Uwielbiamtworzyć rytmiczne podkłady do różnych gatunków muzycznych, od rocka po metal. 
             Chodź jeszcze nie
@@ -218,7 +218,7 @@ function App() {
             dynamicznymi partiami i perfekcyjnym wykonaniem. Darkside gra na perkusji w zespole Mgła od 2007
             roku. Jest uważany za jednego z najlepszych perkusistów na polskiej
             scenie metalowej ze względu na innowacyjne pisanie partii.
-            <p />
+            </ p >
             <p className="table__overflow">
               <table className="table">
                 <caption className="table__caption">
