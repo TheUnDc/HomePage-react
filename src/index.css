@@ -13,7 +13,7 @@ body {
 	max-width: 1000px;
 	margin: auto;
 	line-height: 1.8;
-	background-image: url("../public/images/backgroundneon.png");
+	background-image: url("../images/backgroundneon.png");
 	background-size: cover;
 	background-attachment: fixed;
 	object-fit: cover;
