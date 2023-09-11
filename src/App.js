@@ -1,6 +1,7 @@
 import freemanson from "./images/freemason.jpg";
 import IMG1 from "./images/IMG1.jpg";
-import Table from "./Table"
+import Table from "./Table";
+import Nav from "./Nav"
 
 function App() {
   return (
@@ -13,14 +14,7 @@ function App() {
         </h1>
       </div>
 
-      <nav id="navi">
-        <ul className="nav__list section__boxModel">
-          <li><a className="nav__link" href="#o-mnie">👨Króciotko o mnie👨</a></li>
-          <li><a className="nav__link" href="#szkola">🏫Szkoła🏫</a></li>
-          <li><a className="nav__link" href="#moje-pasje">🔎Moje pasje🔎</a></li>
-          <li><a className="nav__link" href="#muzyka">🎵Troszkę o muzyce🎵</a></li>
-        </ul>
-      </nav>
+      <Nav />
 
       <article className="js-blockadeSpam">
         <section className="section__boxModel">
