@@ -30,7 +30,7 @@ html {
 
 .container__bodyStyle {
 	content: "";
-	background-color: #21224a85; /*ciekawy trick zamiast opacity (dać rgba i po, pisac )*/
+	background-color: #21224a85;
 	color: #ffe300;
 	text-shadow: -7px -1px 10px #7c0707;
 	border-radius: 20px / 40px;
