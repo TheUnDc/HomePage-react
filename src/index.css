@@ -13,7 +13,7 @@ body {
 	max-width: 1000px;
 	margin: auto;
 	line-height: 1.8;
-	background-image: url("../images/backgroundneon.png");
+	background-image: url("./images/backgroundneon.png");
 	background-size: cover;
 	background-attachment: fixed;
 	object-fit: cover;
@@ -93,7 +93,7 @@ body {
 /*2 container*/
 
 .container__body--hell {
-	background-image: url("../public/images/hell_background.gif");
+	background-image: url("./images/hell_background.gif");
 }
 
 .section__boxModel {
