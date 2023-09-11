@@ -3,6 +3,7 @@ import IMG1 from "./images/IMG1.jpg";
 import Table from "./Table";
 import Nav from "./Nav"
 import ImportantPhraze from "./ImportantPhraze";
+import SpecialFunction from "./SpecialFunction";
 
 function App() {
   return (
@@ -177,23 +178,9 @@ function App() {
         </ section >
 
       </ article>
-      <aside>
-        <h3 className="section__header section__boxModel js-specialFunctionResponse">🤔Napisz co o tym myślisz:</h3>
 
-        <p>
-          <textarea id="idBlockadeButton" className="comment__boxModel" name="description"
-            placeholder="Tu pisz..."></textarea>
-        </p>
-
-        <p>
-          <button className="section__boxModel js-blockadeButton specialFunction__magicButton">
-            ❓Magic button #1. Zweryfikuj opinię.❓
-          </button>
-          <button className="section__boxModel specialFunction__magicButton js-hellButton">
-            ❓Magic button #2 Tartar.❓
-          </button>
-        </p>
-      </aside>
+      <SpecialFunction />
+      
       <footer className="section__header section__boxModel">
         ®Wszelkie prawa niestrzeżone. Przestrzeganie grozi epilepsją, traumą,
         niekontrolowanymi wymiotami i pobytem w psychiatryku.
