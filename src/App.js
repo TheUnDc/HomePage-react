@@ -2,6 +2,7 @@ import freemanson from "./images/freemason.jpg";
 import IMG1 from "./images/IMG1.jpg";
 import Table from "./Table";
 import Nav from "./Nav"
+import ImportantPhraze from "./ImportantPhraze";
 
 function App() {
   return (
@@ -47,31 +48,24 @@ function App() {
             Niestety
             jedynie kopiowałem bezmyślnie i denerowowałem się, że nic nie działa.
             Dlatego jestem na
-
-            <span className="content__importantPhrase">
-              kursie YouCode
-            </span>.
+            <ImportantPhraze content={" kursie YouCode"}/>.
           </p>
         </section>
+        
         <section id="szkola">
           <h3 className="section__header section__boxModel">🏫Szkoła, którą skończyłem.</h3>
           <p className="section__boxModel">
             Skończyłem technikum elektryczne o profilu technik elektronik w , technikum w
             wojewódstwie. Trafiłem tam zupełnie przypadkowo, bo chciałem się dostać na
 
-            <span className="content__importantPhrase">
-              profil informatyczny
-            </span>
+            <ImportantPhraze content={" profil informatyczny"}/>
 
             , ale zabrakło mi 3 punkcików.
-            Gdybym w
-            drugiej opcji zaznaczył inną szkołę to na
+            Gdybym w drugiej opcji zaznaczył inną szkołę to na
             pewno bym się dostał. Na początku nauki miało to dla mnie jeszcze jakieś znaczenie, bo w końcu
-            najlepsza
-            techbuda w wojewódstwie. Dzisiaj jak
+            najlepsza techbuda w wojewódstwie. Dzisiaj jak
             przypominam sobie jak z dumą chodziłem z koszulką z logo tej placówki edukacujnej to mnie skręca
-            w
-            środku, bo jak się okazało po latach to była tylko iluzja wimaginowanego prestiżu.
+            w środku, bo jak się okazało po latach to była tylko iluzja wimaginowanego prestiżu.
 
             Bo czym się różnią szkoły
             prestiżowe od nieprestiżowych?
@@ -79,9 +73,7 @@ function App() {
             parcie na wyniki i stosują miękkie i średnie
             techniki zastraszania.
 
-            <span className="content__importantPhrase">
-              Jak w hardcore korpo.
-            </span>
+            <ImportantPhraze content={" Jak w hardcore korpo."}/>
 
             W ten oto piękny sposób
             w pierwsze pół roku uciekło z mojej klasy 7 z 30 osób, a pod
@@ -89,15 +81,14 @@ function App() {
             Jedyną, rzeczą jaką jestem wdzięczny tej budzie to za
             poznanie
 
-            <span className="content__importantPhrase">
-              Pana Ryszarda
-            </span>.
+            <ImportantPhraze content={" Pana Ryszarda"}/>.
 
             Nauczyciela, który jako jedyny czegoś mnie nauczył.
             Dzięki niemu polubiłem mikrokontrolery. No i próbował mnie uczyć
             Assemblera. Zaznaczam próbował. Kiedyś się go na serio nauczę.
           </p>
         </section>
+
         <section id="moje-pasje">
           <h3 className="section__header section__boxModel">🔎Moje pasję.</h3>
           <p className="section__boxModel">
@@ -116,15 +107,11 @@ function App() {
             Pierwsza moja modyfikacja to hulajngoa xiaomi, której na jeździe próbnej był za duży prąd na
             silnik
 
-            <span className="content__importantPhrase">
-              i go spaliłem.
-            </span>
+            <ImportantPhraze content={" i go spaliłem."}/>
 
             Problemem był lewy soft, który niefrasobliwie znalazłem na
 
-            <span className="content__importantPhrase">
-              XDA-developers
-            </span>.
+            <ImportantPhraze content={" XDA-developers"}/>
 
             Obecnie nie eksperymentuje pojazdami, ale się bawię w sterowanie elektryką domową. Na razie w
             mikroskali, ale ciiiii.
@@ -133,6 +120,7 @@ function App() {
             się. :)
           </p>
         </section>
+
         <section id="muzyka">
           <h3 className="section__header section__boxModel"> 🎵Troszkę o muzyce</h3>
           <p className="section__boxModel" >
@@ -141,74 +129,43 @@ function App() {
             Chodź jeszcze nie
             umiem brać bardzo szybko to moimi inspiracjami są
 
-            <span className="content__importantPhrase">
-              Nicholas Baker
-            </span>,
-            <span className="content__importantPhrase">
-              Darkside
-            </span> i
-            <span className="content__importantPhrase">
-              Hellhammer
-            </span>.
-
-            <span className="content__importantPhrase">
-              Nicholas Baker
-            </span>
+            <ImportantPhraze content={" Nicholas Baker"}/>,
+            <ImportantPhraze content={" Darkside"}/> i
+            <ImportantPhraze content={" Hellhammer"}/>.
+            <ImportantPhraze content={" Nicholas Baker"}/>
 
             to brytyjski perkusista, który grał w zespołach takich jak
 
-            <span className="content__importantPhrase">
-              Cradle of Filth
-            </span>,
-            <span className="content__importantPhrase">
-              Dimmu Borgir
-            </span> i
-            <span className="content__importantPhrase">
-              Old Mans Child
-            </span>.
+            <ImportantPhraze content={" Cradle of Filth"}/>,
+            <ImportantPhraze content={" Dimmu Borgir"}/> i
+            <ImportantPhraze content={" Old Mans Child"}/>.
 
             Jego styl charakteryzuje się
             szybkimi blast beatami, złożonymi przejściami i techniczną precyzją. Jest jednym z najbardziej
             podziwianych przezemnie i
             kreatywnych bębniarzy w podziemu BM.
 
-
-            <span className="content__importantPhrase">
-              Hellhammer
-            </span>
+            <ImportantPhraze content={" Hellhammer"}/>
 
             to pseudonim Jana Axel Blomberga, norweskiego perkusisty,
             który grał w zespołach takich jak
 
-            <span className="content__importantPhrase">
-              Mayhem
-            </span>,
-            <span className="content__importantPhrase">
-              Arcturus
-            </span> i
-            <span className="content__importantPhrase">
-              Dimmu Borgir
-            </span>.
+            <ImportantPhraze content={" Mayhem"}/>,
+            <ImportantPhraze content={" Arcturus"}/>i
+            <ImportantPhraze content={" Dimmu Borgir"}/>.
 
             Jego styl charakteryzuje się
             agresywnym brzmieniem, black metalowymi wpływami i niekonwencjonalnymi rytmami. Jego styl dał
             początek nurtowi BM.
 
+            <ImportantPhraze content={" Darkside"}/>
 
-            <span className="content__importantPhrase">
-              Darkside
-            </span>
             to pseudonim Macieja Kowalskiego, polskiego perkusisty, który gra w zespołach takich jak
 
-            <span className="content__importantPhrase">
-              Mgła
-            </span>,
-            <span className="content__importantPhrase">
-              Kriegsmaschine
-            </span> i
-            <span className="content__importantPhrase">
-              Darzamat
-            </span>.
+            <ImportantPhraze content={" Mgła"}/>,
+            <ImportantPhraze content={" Kriegsmaschine"}/> i
+            <ImportantPhraze content={" Darzamat"}/>.
+
             Jego styl charakteryzuje się black metalowym brzmieniem,
             dynamicznymi partiami i perfekcyjnym wykonaniem. Darkside gra na perkusji w zespole Mgła od 2007
             roku. Jest uważany za jednego z najlepszych perkusistów na polskiej
@@ -218,6 +175,7 @@ function App() {
           <Table />
 
         </ section >
+
       </ article>
       <aside>
         <h3 className="section__header section__boxModel js-specialFunctionResponse">🤔Napisz co o tym myślisz:</h3>
